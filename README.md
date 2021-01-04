@@ -21,6 +21,7 @@ move by expression | C-M-b, C-M-f |
 move by function | C-M-a, C-M-e |
 line# | M-g-g \<number> | | \<number>gg
 **editing** |
+newline without reindent | M-j | | Ret
 cut line | M-Sft-Bsp | | dd
 cut word | M-Bsp, M-d | | db, dw
 cut to end | C-k | | d$
