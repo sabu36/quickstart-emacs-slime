@@ -12,13 +12,12 @@ undo | C-_ | | u
 abort any command | C-g |
 save | C-x-s | | :w
 shell command | M-! | | :!
-**movement** |
-move vertically (across newline) | C-b, C-f | "b"ackward, "f"orward | 
-move by word | M-b, M-f | | b, w
-move horizontally | C-p, C-n | "p"revious, "n"ext
+**movement** | 
+move by word | M-b, M-f | "b"ackward, "f"orward | b, w
 end of line | C-a, C-e | | 0, $
 move by expression | C-M-b, C-M-f |
 move by function | C-M-a, C-M-e |
+center screen around cursor | C-l | | zz
 line# | M-g-g \<number> | | \<number>gg
 **editing** |
 newline without reindent | M-j | | Ret
