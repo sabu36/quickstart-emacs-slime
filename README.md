@@ -21,6 +21,7 @@ center screen around cursor | C-l | | zz
 line# | M-g-g \<number> | | \<number>gg
 **editing** |
 newline without reindent | M-j | | Ret
+insert newline | C-M-o, C-o | "o"pen | O, o
 cut line | M-Sft-Bsp | | dd
 cut word | M-Bsp, M-d | | db, dw
 cut to end | C-k | | d$
@@ -28,8 +29,7 @@ start selection | C-Spc (or C-@) | | v
 reindent selection | C-x Tab | | >>, <<
 cut selection | C-w | | d
 copy selection | M-w | | y
-paste | C-y | "y"ank back | p
-insert newline | C-M-o, C-o | "o"pen | O, o 
+paste | C-y | "y"ank back | p 
 **search** |
 search and move | C-r, C-s | | / ⇒ N, n
 search and replace (to end of file) | M-% (or Esc-%) | | :%s/\<srch>/\<rpl>/gc
